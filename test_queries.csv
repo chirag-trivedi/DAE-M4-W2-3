@@ -1,0 +1,6 @@
+test_id,question,expected_route,expected_query_id,expected_answer
+TQ001,Which 5 warehouses have the highest dollar value of on-hand inventory?,verified,VQ7,"WH_ORD_01 ($8,373,968.68), WH_DFW_01 ($8,094,405.85), WH_IAH_01 ($7,946,635.33), WH_BOS_01 ($7,897,449.36), WH_EWR_01 ($7,591,035.60)"
+TQ002,Do our bonded warehouses run hotter on capacity than the regular ones?,verified,VQ9,FTZ/bonded: 86.29% avg (7 warehouses); Non-bonded: 69.63% avg (11 warehouses)
+TQ003,"Which regions have an above-average stockout rate, and how many SKUs are sitting at or below reorder point in those regions?",generated,,"Northeast (26 SKUs), South (23 SKUs)"
+TQ004,"For our FTZ warehouses, what's the at-risk inventory value tied to shipments that were delayed more than 2 days, broken out by carrier?",generated,,"FedEx Freight ($11,041,802.64), J.B. Hunt Transport ($29,286,846.93), Old Dominion Freight ($39,502,181.27), UPS Supply Chain ($19,325,556.51), XPO Logistics ($34,734,378.24)"
+TQ005,What's the average employee headcount per warehouse?,escalate,,Escalated to human analyst: requested data not available in current schema
