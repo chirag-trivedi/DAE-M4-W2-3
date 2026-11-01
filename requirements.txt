@@ -1,0 +1,7 @@
+streamlit
+langchain-openai
+pandas
+numpy
+matplotlib
+seaborn
+sqlparse
